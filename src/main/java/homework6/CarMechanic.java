@@ -1,6 +1,7 @@
-package homework7;
+package homework6;
 
 public interface CarMechanic {
+
     void engineFix();
     }
 

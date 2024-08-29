@@ -1,4 +1,4 @@
-package homework7;
+package homework6;
 
 
 public class MainCar {
@@ -8,6 +8,7 @@ public class MainCar {
 
         CarMechanic mechanic = new Mechanic(car);
         CarDriver chauffeur = new Chauffeur(car);
+
 
         mechanic.engineFix();
 

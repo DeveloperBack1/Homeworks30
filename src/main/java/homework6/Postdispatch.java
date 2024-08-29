@@ -90,7 +90,7 @@ class Letter extends Postdispatch {
         }
     }
 
-    // Класс Контейнер
+
     class Container extends Postdispatch {
         private int count;  // Количество предметов в контейнере
 
