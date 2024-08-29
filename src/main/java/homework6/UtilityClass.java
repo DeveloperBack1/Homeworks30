@@ -33,6 +33,7 @@ public class UtilityClass {
         }
 
         public static double avg(double a, double b) {
+
             return (a + b) / 2.0;
         }
 

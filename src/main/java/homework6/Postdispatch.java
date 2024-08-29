@@ -1,7 +1,7 @@
 package homework6;
 
 public abstract class Postdispatch {
-    // Абстрактный класс ПочтовоеОтправление
+
 
         protected String name;
         protected String sendAdress;

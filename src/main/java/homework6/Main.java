@@ -8,6 +8,7 @@ public class Main {
         Parcel parcel = new Parcel("Игрушки", "г. Павлоград, ул. Сибири, д. 3", "г. Чернигов, ул. Суворова, д. 9", 2.5);
         Container container = new Container("Оборудование", "г. Екатеринбург, ул. Гагарина, д. 15", "г. Новосибирск, ул. Дзержинского, д. 11", 100);
 
+
         letter.send();
         letter.delivered();
 
