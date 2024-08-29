@@ -1,4 +1,4 @@
-package homework6;
+package homework7;
 
 public class Car {
 
@@ -14,12 +14,13 @@ public class Car {
         this.engineRun = false;
     }
 
-    // Метод  механика
+    // Метод   механика
     public void engineFix() {
         if (!engineRun) {
             engineRun = true;
             System.out.println("Двигатель починен.");
         } else {
+
             System.out.println("Двигатель уже работает.");
         }
     }

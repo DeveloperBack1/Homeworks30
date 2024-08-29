@@ -1,6 +1,7 @@
-package homework6;
+package homework7;
 
-public class Mechanic implements CarMechanic{
+public class Mechanic implements CarMechanic {
+
     Car car;
 
     public Mechanic(Car car) {
@@ -9,6 +10,7 @@ public class Mechanic implements CarMechanic{
 
     @Override
     public void engineFix() {
+
     car.engineFix();
     }
 }
