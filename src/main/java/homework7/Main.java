@@ -30,6 +30,7 @@ public class Main {
             house.addResident(new Resident("Роман"));
 
             // инфо о жителях
+
             for (Resident resident : house.getResidents()) {
                 System.out.println("Житель дома: " + resident.getName());
             }

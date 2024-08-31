@@ -64,6 +64,7 @@ class Window {
 
 // Класс Дверь
 class Door {
+
     private String material;
 
     public Door(String material) {
