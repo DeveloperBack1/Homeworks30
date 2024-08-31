@@ -1,5 +1,7 @@
-package homework6;
+package homework7;
 
+
+import homework6.*;
 
 import java.util.ArrayList;
 import java.util.List;
