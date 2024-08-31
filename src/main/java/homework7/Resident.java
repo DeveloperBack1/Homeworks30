@@ -61,7 +61,6 @@ class Window {
         return artGlasses;
     }
 }
-
 // Класс Дверь
 class Door {
 
