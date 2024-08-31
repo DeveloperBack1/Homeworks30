@@ -22,6 +22,7 @@ public class MainHouse {
             House house = new House(roof, walls, windows, door,new ArrayList<>());
 
             // Добавляем жителей
+
             house.addResident(new Resident("Игорь"));
             house.addResident(new Resident("Анна"));
             house.addResident(new Resident("Алекс"));
