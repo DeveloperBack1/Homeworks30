@@ -13,6 +13,7 @@ import java.util.ArrayList;
 class Resident {
     private String name;
 
+
     public Resident(String name) {
         this.name = name;
     }
