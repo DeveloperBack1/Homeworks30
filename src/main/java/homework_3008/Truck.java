@@ -18,5 +18,4 @@ class Truck extends Auto implements CargoTransportable {
         }
     }
 
-
 }
