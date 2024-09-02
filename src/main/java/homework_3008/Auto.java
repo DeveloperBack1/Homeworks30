@@ -8,7 +8,6 @@ package homework_3008;
  */
 
 class Auto {
-
     private String brand;
     private String model;
     private int year;
