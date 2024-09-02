@@ -1,5 +1,6 @@
 package homework_3008;
 class CargoPassengerCar extends Auto implements PassengerTransportable, CargoTransportable {
+
     private int maxPassengers;
     private double maxCargoWeight;
 

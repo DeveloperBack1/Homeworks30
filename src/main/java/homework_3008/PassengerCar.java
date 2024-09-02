@@ -4,7 +4,8 @@ package homework_3008;
 class PassengerCar extends Auto implements PassengerTransportable {
     private int maxPassengers;
 
-    public PassengerCar(String brand, String model, int year, int maxPassengers) {
+    public PassengerCar(String brand, String model, int year, int maxPassengers)
+    {
         super(brand, model, year);
         this.maxPassengers = maxPassengers;
     }
