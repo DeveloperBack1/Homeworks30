@@ -1,6 +1,5 @@
 package homework0209_1;
 
-
 enum Month {
     JANUARY("Январь", Season.WINTER),
     FEBRUARY("Февраль", Season.WINTER),
