@@ -32,7 +32,7 @@ enum Month {
     }
 
     public String getDietRecommendation() {
-        switch (this.season) {
+        switch (season) {
             case WINTER:
                 return "Потребляйте больше калорийных продуктов, таких как супы," +
                     " тушеные блюда и горячие напитки.";
