@@ -9,6 +9,9 @@ public class MainCar {
         CarMechanic mechanic = new Mechanic(car);
         CarDriver chauffeur = new Chauffeur(car);
 
+       CarMechanic auto = () -> System.out.println("Auto fährt schnell!!!");
+       auto.engineFix();
+
 
         mechanic.engineFix();
 

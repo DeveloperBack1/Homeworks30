@@ -114,7 +114,7 @@ class Letter extends Postdispatch {
         }
     }
 
-    // Пример использования
+
 
 
 
