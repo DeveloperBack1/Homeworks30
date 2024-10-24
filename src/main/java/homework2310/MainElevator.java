@@ -10,7 +10,6 @@ import java.util.Scanner;
 import java.util.concurrent.Semaphore;
 
 public class MainElevator {
-
     // Лифт имеет вместимость 5 человек
     private static final int CAPACITY = 5;
     private static Semaphore elevator = new Semaphore(CAPACITY);

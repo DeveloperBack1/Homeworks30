@@ -16,6 +16,7 @@ public class Excursion {
     public static void main(String[] args) {
 
         // Создаем барьер, который ожидает 5 человек и после этого выполняет команду отправления автобуса
+
         CyclicBarrier barrier = new CyclicBarrier(TOTAL_PEOPLE, new Runnable() {
             @Override
             public void run() {
